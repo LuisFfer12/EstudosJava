@@ -11,7 +11,7 @@ public class teste23 {
 		idade3= (char)('s' +1);
 		System.out.println(idade);
         System.out.println(idade3);
-        System.out.println();
+        System.out.println(idade2);
 	}
 
 }

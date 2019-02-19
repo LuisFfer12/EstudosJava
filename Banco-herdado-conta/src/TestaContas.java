@@ -4,17 +4,18 @@ public class TestaContas {
 	public static void main(String[] args) {
 		
 		contacorrente cc = new contacorrente(33,44);
-		contapoupanca cp = new contapoupanca(22,55);
-		cc.deposita(500);
-		cp.deposita(500);
+		cc.deposita(100);
 		
-		System.out.println("Saldo antes " + cc.getSaldo());
-		System.out.println("Saldo antes " + cp.getSaldo());
+		SeguroDeVida seguro = new SeguroDeVida();
 		
-		cc.saca(200);
+		CalculadorImposto ci = new CalculadorImposto();
 		
-		//System.out.println("Saldo depois " + cc.getSaldo());
-		System.out.println("Saldo depois " + cc.getSaldo());
+		ci.registra(cc);
+		ci.registra(seguro);
+		
+		System.out.println(ci.getTotalImposto());
+		
+		
 		
 	}
 

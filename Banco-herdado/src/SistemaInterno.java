@@ -1,7 +1,7 @@
 
 public class SistemaInterno {
 	
-	private int senha=22;
+	private int senha;
 	
      public  void autenticando(Autenticavel a) {
 		
@@ -10,7 +10,7 @@ public class SistemaInterno {
 		if(autenticou) {
 			System.out.println("entra");
 		}else {
-			System.out.println("na entra");
+			System.out.println("nao entra");
 		}
 		
 	}

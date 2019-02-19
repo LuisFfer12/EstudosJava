@@ -1,3 +1,4 @@
+//define regras e metodos
 
 public abstract interface Autenticavel  {
 	

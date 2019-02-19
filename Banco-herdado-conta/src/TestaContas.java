@@ -14,7 +14,7 @@ public class TestaContas {
 		ci.registra(seguro);
 		
 		System.out.println(ci.getTotalImposto());
-		
+		System.out.println("a");
 		
 		
 	}
